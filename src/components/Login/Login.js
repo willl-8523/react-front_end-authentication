@@ -118,7 +118,7 @@ const Login = (props) => {
 
   const submitHandler = (event) => {
     event.preventDefault();
-    // props.onLogin(enteredEmail, enteredPassword);
+    // authCtx.onLogin(enteredEmail, enteredPassword);
 
     // With Reducer
     authCtx.onLogin(emailState.value, passwordState.value);
